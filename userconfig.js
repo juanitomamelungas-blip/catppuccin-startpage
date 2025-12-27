@@ -31,7 +31,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://chatgpt.com/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -62,7 +62,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "workspace",
+          name: "cosicas 2",
           links: [
             {
               name: "Gmail",
@@ -91,7 +91,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "media",
+          name: "movidas",
           links: [
             {
               name: "YouTube",
@@ -309,3 +309,4 @@ const CONFIG = new Config(default_configuration, palette);
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
 root.style.setProperty("--accent", palette.blue);
+
